@@ -1233,6 +1233,7 @@ static struct pci_device_id realtek_nics[] = {
 	PCI_ROM ( 0x021b, 0x8139, "hne300",	"Compaq HNE-300", 0 ),
 	PCI_ROM ( 0x02ac, 0x1012, "s1012",	"SpeedStream 1012", 0 ),
 	PCI_ROM ( 0x0357, 0x000a, "ttpmon",	"TTTech TTP-Monitoring", 0 ),
+	PCI_ROM ( 0x10ec, 0x8039, "rtl8039",	"RTL8139 clone (10ec:8039)", 0 ),
 	PCI_ROM ( 0x10ec, 0x8129, "rtl8129",	"RTL-8129", 0 ),
 	PCI_ROM ( 0x10ec, 0x8136, "rtl8136",	"RTL8101E/RTL8102E", 0 ),
 	PCI_ROM ( 0x10ec, 0x8138, "rtl8138",	"RT8139 (B/C)", 0 ),
