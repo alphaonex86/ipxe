@@ -72,7 +72,7 @@ loadflags:
 setup_move_size:
 	.word	0
 code32_start:
-	.long	0
+	.long	BZI_LOAD_HIGH_ADDR /* LILO loads the protected-mode part here */
 ramdisk_image:
 	.long	0
 ramdisk_size:
